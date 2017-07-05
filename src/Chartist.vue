@@ -4,7 +4,6 @@
 
 <script>
 import Chartist from 'chartist'
-import
 const types = ['Line', 'Bar', 'Pie']
 
 export default {
