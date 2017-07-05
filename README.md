@@ -1,11 +1,12 @@
 # Chartist
-
+sorry fork from http://gionkunz.github.io/chartist-js/
+need to add plugin support
 Chartist component is based on [Chartist](http://gionkunz.github.io/chartist-js/) for Vue Bulma.
 
 ## Installation
 
 ```
-$ npm install vue-bulma-chartist
+$ npm install vue-bulma-chartist-with-plugin
 ```
 
 ## Examples

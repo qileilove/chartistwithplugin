@@ -4,7 +4,7 @@
 
 <script>
 import Chartist from 'chartist'
-
+import
 const types = ['Line', 'Bar', 'Pie']
 
 export default {
@@ -25,6 +25,10 @@ export default {
       type: Object,
       default: () => ({})
     },
+    plugins: {
+      type: Object,
+      default: () => ({})
+    },
     responsiveOptions: {
       type: Array,
       default: () => ([])
@@ -42,6 +46,7 @@ export default {
       this.$el,
       this.data,
       this.options,
+      this.plugins,
       this.responsiveOptions
     )
   },
